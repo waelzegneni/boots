@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+
+.grey{
+    background-color: #d36600;
+}
+
+
+.article{
+    display: inline;
+    }
+
+
+
+.title {
+    background-color: rgb(255, 0, 0);
+}
+
+.content{
+    background-color: rgb(179, 255, 0);
+}
+
+.content > div {
+    min-height: 20vh;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+.w-level{
+    margin : 0 ;
+    padding : 10px ;
+    margin-left: auto;
+    margin-right:auto;
+    width: max-content;
+    font-size: 2.4vw;
+    font-family: cursive;
+    color: rgb(11, 11, 105);
+    background-color: blue;
+}
+
+.course-box {
+    width: 90%;
+    height:160px;
+    font-family: cursive;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+}
+
+.levels{
+    background-color: rgb(0, 65, 0);
+}
+
+
+@media   (min-width: 575px) and (max-width: 767px) {
+    .display{
+        display:flex;
+    }
+  }
+
+@media (max-width: 575px){
+  .levels{
+      display: block;
+  
+      
+  }
+}
+
+.course-box >div{
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5vw;
+}
+
+
+
+.resize img{
+    height:auto;
+    width: 100%;
+    
+
+}
+
+
+.title1{
+    margin-left:auto;
+    margin-right: auto;
+    width: max-content;
+    color: green;
+    font-weight: bolder;
+    font-size: 1.8vw;
+}
+
+.article .img img{
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (max-width: 1190px){
+    
+    .article {
+        display: block;
+    }
+}
+
+.article p{
+    flex: 1;
+}
+
+.article .img {
+    flex: 1;
+}
+
+
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
+    background-color: rgb(115, 0, 165);
+}
+
+.logofix {
+    width: 130px;
+    height:130px;;
+}
+.logofix img{
+    height: 100%;
+    width: 100%
+}
+
+
+@media (max-width: 575px)
+{
+    .logos{
+        display: block;
+         
+    }
+}
+
+@media (max-width: 575px)
+{
+    .course-box{
+        width: 100vw;
+        height: auto;
+        font-size: 5vw;
+        }
+}
+
+
